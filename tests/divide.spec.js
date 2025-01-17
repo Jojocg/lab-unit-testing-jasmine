@@ -24,9 +24,9 @@ describe("Iteration 2 | Divide", () => {
         });
 
         it("should return undefined if any of the two arguments is not a number", () => {
-            expect(add(1, "2")).toBeUndefined();
-            expect(add("9", 3)).toBeUndefined();
-            expect(add("200", "5")).toBeUndefined();
+            expect(divide(1, "2")).toBeUndefined();
+            expect(divide("9", 3)).toBeUndefined();
+            expect(divide("200", "5")).toBeUndefined();
         });
     })    
 })
